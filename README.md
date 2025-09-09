@@ -10,6 +10,7 @@ mvn clean package
 java -jar target/BookStore-1.0-SNAPSHOT.jar  
 
 # Client and Book API (сделаны эндпоинты со стандартными CRUD операциями для сущностей book, client )   
+Проверить Api удобно через postman или httpie  
 GET /api/books  
 GET /api/books/{id}  
 POST /api/books  
